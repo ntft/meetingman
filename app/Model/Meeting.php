@@ -1,5 +1,4 @@
 <?php
-// 試しに更新してみる
 App::uses('AppModel', 'Model');
 /**
  * Meeting Model

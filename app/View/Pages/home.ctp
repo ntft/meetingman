@@ -11,6 +11,14 @@ endif;
 
 App::uses('Debugger', 'Utility');
 ?>
+
+<ul>
+    <li><a href="./meeting_rooms">会議室</a></li>
+    <li><a href="./meetings">会議</a></li>
+    <li><a href="./members">メンバー</a></li>
+</ul>
+<br />
+
 <h2><?php echo __d('cake_dev', 'Release Notes for CakePHP %s.', Configure::version()); ?></h2>
 <p>
 	<?php echo $this->Html->link(__d('cake_dev', 'Read the changelog'), 'http://cakephp.org/changelogs/' . Configure::version()); ?>
